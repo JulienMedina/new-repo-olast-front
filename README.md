@@ -20,12 +20,16 @@ O'Last est une application web destinée à mettre en relation des joueurs en qu
 ## ⚙️ Installation et Lancement
 Pour lancer ce projet en local avec Vite :
 
+
 ```bash
-# Clone le dépôt
+# Assurez-vous d'avoir pnpm installé
+npm install -g pnpm
+
+# Clonez le dépôt
 git clone https://github.com/ton-compte/olast-frontend.git
 
-# Installe les dépendances
-npm install
+# Installez les dépendances
+pnpm install
 
-# Lance l'application en mode développement
-npm run dev
+# Lancez l'application en mode développement
+pnpm run dev
